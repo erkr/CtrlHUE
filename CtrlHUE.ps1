@@ -136,8 +136,8 @@ param (  #Extensive use of ParameterSetNames to ensure only valid combination of
 )
 
 # ATTENTION! These Two lines below require a one time configuration:
-#$hueBridge = "http://xxx.xxx.xxx.xxx/api"   # You can lookup your Bridge Ip address in the HUE app under Bridge info
-#$username = "specify"                       # Enter your username. You can retrieve it using the -LinkBridge option
+$hueBridge = "http://xxx.xxx.xxx.xxx/api"   # You can lookup your Bridge Ip address in the HUE app under Bridge info
+$username = "specify"                       # Enter your username. You can retrieve it using the -LinkBridge option
 
 function ShowResults {
 	param ( [parameter(Position=0,Mandatory=$true)] [string] $message )
